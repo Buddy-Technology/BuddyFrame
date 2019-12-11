@@ -11,32 +11,37 @@ The Buddy iFrame Widget is one line of code that can be inserted within your web
 1. Pick a location on your website/platform for the Buddy iFrame Widget. We recommend the confirmation/receipt page. 
 2. Insert the iframe within the source code. EXAMPLE: 
 ```html
-<iframe style="border: none;"src="https://widget.buddyinsurance.com/?type=iframe&series=12/07/2019-12/08/2019&seriesName=Buddy%20Race&seriesType=Race&isCompeting=true" width="100%" height="1000" frameborder="0"></iframe>
+<iframe style="border: none;"src="https://widget.buddyinsurance.com/?type=iframe&series=12/07/2019-12/08/2019&seriesName=Buddy%20Race&seriesType=Race&isCompeting=true&parnter=sunrise" width="100%" height="1000" frameborder="0"></iframe>
 ```
 3. Customers complete the Buddy insurance purchase in 5 easy steps within the widget, without being redirected to any other pages. 
 4. Your company earns ancillary revenue immediately! 
 
 Example customer experience flow:
 
-**Step 1 - Offer**
+<div>
+    <p style="font-weight: 700;">Step 1 - Offer</p>
+    <img src="./frame1.png" width="250"/>
+</div>
 
-<img src="./frame1.png" width="250"/>
+<div>
+    <p style="font-weight: 700;">Step 2 - Enter Info</p>
+    <img src="./frame2.png" width="250"/>
+</div>
 
-**Step 2 - Enter Info**
+<div>
+    <p style="font-weight: 700;">Step 3 - Enter Contact Info</p>
+    <img src="./frame3.png" width="250"/>
+</div>
 
-<img src="./frame2.png" width="250"/>
+<div>
+    <p style="font-weight: 700;">Step 4 - Review</p>
+    <img src="./frame4.png" width="250"/>
+</div>
 
-**Step 3 - Enter Contact Info**
-
-<img src="./frame3.png" width="250"/>
-
-**Step 4 - Review**
-
-<img src="./frame4.png" width="250"/>
-
-**Step 5 - Checkout**
-
-<img src="./frame5.png" width="250"/>
+<div>
+    <p style="font-weight: 700;">Step 5 - Checkout</p>
+    <img src="./frame5.png" width="250"/>
+</div>
 
 ### Basic example:
 
