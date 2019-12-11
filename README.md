@@ -66,6 +66,7 @@ Example customer experience flow:
 
 ### Query Params
 List of all possible query params. The more info is passed, the better the user experience.
+
 | Name | format | Description | Required |
 | --- | ---| --- | ---|
 | series | MM/DD/YYYY | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | Yes |
