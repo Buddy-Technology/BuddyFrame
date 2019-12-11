@@ -51,8 +51,8 @@ Example customer experience flow:
     var name='Cezar Carvalhaes'
     var competition=true;
     var buddyURl='https://widget.buddyinsurance.com/';
-    var partner='Wherewolf'
-    var params=`?type=iframe&series=${dates}&seriesName=${eventName}&seriesType=${eventType}&isCompeting=${competition}&dob=${DOB}&activities=${activities}&name=${name}&email=${email}&partner=${parnter}`
+    var partner='Sunrise'
+    var params=`?type=iframe&series=${dates}&seriesName=${eventName}&seriesType=${eventType}&isCompeting=${competition}&dob=${DOB}&activities=${activities}&name=${name}&email=${email}&partner=${partner}`
     
     // create iframe
     var buddyFrame = document.createElement('iframe');
@@ -78,9 +78,9 @@ List of all possible query params. The more info is passed, the better the user 
 | name | FirstName LastName | ie: 'John Smith' | No |
 | isCompeting | boolean | Does the activity require competition coverage? | No |
 | address1 | text | Customer Street address | No |
-| address2 | text | Customer's Line 2 of street address | No |
-| city | text | Customer's city | No |
-| state | text | Customer's state | No |
-| zip | text | Customer's postal code | No |
+| address2 | text | Customer Line 2 of street address | No |
+| city | text | Customer city | No |
+| state | text | Customer state, as two letter abbreviation (AL, AK, AZ...) | No |
+| zip | text | Customer postal code | No |
 | phone | +1 222-2222 | Customer's phone | No |
-| partner | text | Parnter name | Yes |
+| partner | text | Partner name | Yes |
