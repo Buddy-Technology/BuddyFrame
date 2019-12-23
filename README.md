@@ -1,8 +1,6 @@
 # Buddy Iframe Widget
 
-Dev resources a little jammed up? We get it! The Buddy iFrame Widget is a great starting point while the [API](https://buddyinsurance.com/api) integration is being scoped. 
-
-The Buddy iFrame Widget is one line of code that can be inserted within your website/platform in a matter of minutes. If you have any questions, please reach out to: cezar@iambuddy.com.
+The Buddy iFrame Widget is a quick and painless way to integrate Buddy within your website/platform, while the full [API](https://buddyinsurance.com/api) integration is being scoped. If you have any questions, please reach out to: cezar@iambuddy.com.
 
 ---
 
@@ -11,7 +9,7 @@ The Buddy iFrame Widget is one line of code that can be inserted within your web
 1. Pick a location on your website/platform for the Buddy iFrame Widget. We recommend the confirmation/receipt page. 
 2. Insert the iframe within the source code. EXAMPLE: 
 ```html
-<iframe style="border: none;"src="https://widget.buddyinsurance.com/?type=iframe&series=12/07/2020-12/08/2020&seriesName=Buddy%20Race&seriesType=Race&isCompeting=true&partner=sunrise" width="100%" height="1000" frameborder="0"></iframe>
+<iframe style="border: none;"src="https://widget.buddyinsurance.com/?type=iframe&series=12/07/2020-12/08/2020&seriesName=Buddy%20Race&seriesType=Race&isCompeting=true&partner=partnerName" width="100%" height="1000" frameborder="0"></iframe>
 ```
 3. Customers complete the Buddy insurance purchase in 5 easy steps within the widget, without being redirected to any other pages. 
 4. Your company earns ancillary revenue immediately! 
@@ -56,7 +54,7 @@ Example customer experience flow:
     var name='Cezar Carvalhaes'
     var competition=true;
     var buddyURl='https://widget.buddyinsurance.com/';
-    var partner='Sunrise'
+    var partner='Your Org Name'
     var params=`?type=iframe&series=${dates}&seriesName=${eventName}&seriesType=${eventType}&isCompeting=${competition}&dob=${DOB}&activities=${activities}&name=${name}&email=${email}&partner=${partner}`
     
     // create iframe
