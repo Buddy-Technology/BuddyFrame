@@ -73,11 +73,11 @@ List of all possible query params. The more info is passed, the better the user 
 | Name | format | Description | Required |
 | --- | ---| --- | ---|
 | partner | text | Partner name | Yes |
-| series | MM/DD/YYYY | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | No |
+| series | Must be in MM/DD/YYYY format | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | No |
 | eventName | text | Name of event or activity | No |
 | eventType | text | Type of event or activity (ie. Race, Tournament, etc) | No |
 | activities | activity,activity.... | Activities. Separated by a comma. | No |
-| dob | MM/DD/YYYY | Customer Date of birth | No |
+| dob | Must be in MM/DD/YYYY format | Customer Date of birth | No |
 | email | email | Customer email | No |
 | name | FirstName LastName | ie: 'John Smith' | No |
 | isCompeting | boolean | Does the activity require competition coverage? | No |
