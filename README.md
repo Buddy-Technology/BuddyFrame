@@ -72,7 +72,8 @@ List of all possible query params. The more info is passed, the better the user 
 
 | Name | format | Description | Required |
 | --- | ---| --- | ---|
-| series | MM/DD/YYYY | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | Yes |
+| partner | text | Partner name | Yes |
+| series | MM/DD/YYYY | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | No |
 | eventName | text | Name of event or activity | No |
 | eventType | text | Type of event or activity (ie. Race, Tournament, etc) | No |
 | activities | activity,activity.... | Activities. Separated by a comma. | No |
@@ -86,4 +87,3 @@ List of all possible query params. The more info is passed, the better the user 
 | state | text | Customer state, as two letter abbreviation (AL, AK, AZ...) | No |
 | zip | text | Customer postal code | No |
 | phone | +1 222-2222 | Customer's phone | No |
-| partner | text | Partner name | Yes |
