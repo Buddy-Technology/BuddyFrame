@@ -72,18 +72,18 @@ List of all possible query params. The more info is passed, the better the user 
 
 | Name | format | Description | Required |
 | --- | ---| --- | ---|
-| partner | text | Partner name | Yes |
-| series | Must be in MM/DD/YYYY format | Date(s) of the event. Mutiple dates separated by `,` or `-` for range | No |
-| eventName | text | Name of event or activity | No |
-| eventType | text | Type of event or activity (ie. Race, Tournament, etc) | No |
+| partner |  | Partner name | Yes |
+| series | Must be in MM/DD/YYYY format | Date(s) of the event. Mutiple dates separated by `,`. Use `-` for date ranges | No |
+| eventName |  | Name of event or activity | No |
+| eventType |  | Type of event or activity (ie. Race, Tournament, etc) | No |
 | activities | activity,activity.... | Activities. Separated by a comma. | No |
 | dob | Must be in MM/DD/YYYY format | Customer Date of birth | No |
 | email | email | Customer email | No |
 | name | FirstName LastName | ie: 'John Smith' | No |
 | isCompeting | boolean | Does the activity require competition coverage? | No |
-| address1 | text | Customer Street address | No |
-| address2 | text | Customer Line 2 of street address | No |
-| city | text | Customer city | No |
-| state | text | Customer state, as two letter abbreviation (AL, AK, AZ...) | No |
-| zip | text | Customer postal code | No |
-| phone | +1 222-2222 | Customer's phone | No |
+| address1 |  | Customer Street address | No |
+| address2 |  | Customer Line 2 of street address | No |
+| city |  | Customer city | No |
+| state | abbr: 'AZ' | Customer state, as two letter abbreviation | No |
+| zip | 12345 | Customer postal code | No |
+| phone | +1 (222) 222-2222 | Customer's phone | No |
